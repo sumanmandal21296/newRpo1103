@@ -37,7 +37,7 @@ function calender(str : string)  : void {
     let numDays :   number     = getNumdays(str)
     let days    :   Function[] = [sun,mon,tue,wed,thu,fri,sat]
     let calen   :   string[]  = ['sun','mon','tue','wed','thu','fri','sat']
-    let cond    :   boolean = false
+    let cond    :   number = false
     let num     :   number  = 1
     let d       :   number  = 0
     while(1) {
