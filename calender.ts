@@ -11,7 +11,7 @@ function getNumdays(str : string) : number {
 
     const date2 :   Date   = new Date(str)
    
-    date2.setMonth(date2.getMonth() + 1)
+    date2.setMonth(date2.getMonth() + 2)
 
     const  k    :  number = date2.getTime() - date1.getTime()
 
